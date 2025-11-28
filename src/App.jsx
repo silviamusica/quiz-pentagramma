@@ -82,7 +82,7 @@ const App = () => {
             <img 
                 src="/Logo sip orizzontale nero.png" 
                 alt="Sognandoilpiano" 
-                className="h-8 mx-auto opacity-60 hover:opacity-90 transition-opacity"
+                className="h-16 mx-auto opacity-60 hover:opacity-90 transition-opacity"
             />
         </div>
     );
@@ -95,8 +95,8 @@ const App = () => {
                         <div className="bg-gradient-to-br from-cyan-100 to-blue-100 w-16 h-16 rounded-full flex items-center justify-center mx-auto mb-4">
                             <Music className="w-8 h-8 text-cyan-600" />
                         </div>
-                        <h1 className="text-3xl font-bold text-gray-800">Configura Esercizio</h1>
-                        <p className="text-gray-500 mt-2">Personalizza il tuo allenamento di lettura</p>
+                        <h1 className="text-4xl font-extrabold text-gray-800">Allenamento di lettura</h1>
+                        <p className="text-gray-600 mt-2 text-lg font-semibold">Personalizza</p>
                     </div>
 
                     <div className="space-y-6">
