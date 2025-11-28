@@ -92,9 +92,6 @@ const App = () => {
             <div className="min-h-screen flex flex-col items-center justify-center p-4 bg-gradient-to-br from-cyan-50 via-blue-50 to-purple-50 font-sans">
                 <div className="bg-white max-w-lg w-full rounded-2xl shadow-xl overflow-hidden p-8">
                     <div className="text-center mb-8">
-                        <div className="bg-gradient-to-br from-cyan-100 to-blue-100 w-16 h-16 rounded-full flex items-center justify-center mx-auto mb-4">
-                            <Music className="w-8 h-8 text-cyan-600" />
-                        </div>
                         <h1 className="text-4xl font-extrabold text-gray-800">Allenamento di lettura</h1>
                         <p className="text-gray-600 mt-2 text-lg font-semibold">Personalizza</p>
                     </div>
@@ -111,7 +108,7 @@ const App = () => {
                                         : 'border-gray-200 hover:border-cyan-200 text-gray-600'
                                     }`}
                                 >
-                                    Solo Righe
+                                    Solo righe
                                 </button>
                                 <button 
                                     onClick={() => setConfig({ ...config, mode: 'spaces' })}
@@ -121,7 +118,7 @@ const App = () => {
                                         : 'border-gray-200 hover:border-cyan-200 text-gray-600'
                                     }`}
                                 >
-                                    Solo Spazi
+                                    Solo spazi
                                 </button>
                                 <button 
                                     onClick={() => setConfig({ ...config, mode: 'random' })}
@@ -160,7 +157,7 @@ const App = () => {
                                 onClick={startQuiz}
                                 className="w-full bg-gradient-to-r from-cyan-500 to-blue-600 hover:from-cyan-600 hover:to-blue-700 text-white font-bold py-4 rounded-xl shadow-lg transition transform hover:scale-[1.02] flex items-center justify-center gap-2"
                             >
-                                <Play size={20} /> Inizia Esercizio
+                                <Play size={20} /> inizia esercizio
                             </button>
                         </div>
                     </div>
