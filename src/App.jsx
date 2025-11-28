@@ -20,7 +20,7 @@ const StaffVisualizer = ({ notePos, showNote }) => {
     return (
         <div className="flex justify-center my-6">
             <svg width="300" height="200" viewBox="0 0 300 200" className="bg-white rounded-lg shadow-inner border border-gray-200 select-none">
-                <text x="10" y="142" fontSize="120" fontFamily="serif" fill="#374151">𝄞</text>
+                <image xlinkHref="/violin key.png" x="0" y="60" width="60" height="100" />
                 {[60, 80, 100, 120, 140].map((y, i) => (
                     <line key={i} x1="20" y1={y} x2="280" y2={y} className="stroke-gray-700 stroke-2" />
                 ))}
